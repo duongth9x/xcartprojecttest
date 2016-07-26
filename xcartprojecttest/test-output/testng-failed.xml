@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CrossBrowser/MultiBrowser]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test Buying in chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test.TestBuying">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="Testbuying1"/>
+        </methods>
+      </class> <!-- test.TestBuying -->
+    </classes>
+  </test> <!-- Test Buying in chrome(failed) -->
+</suite> <!-- Failed suite [CrossBrowser/MultiBrowser] -->

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CrossBrowser/MultiBrowser" duration-ms="116577" started-at="2016-07-19T07:19:44Z" finished-at="2016-07-19T07:21:41Z">
+    <groups>
+    </groups>
+    <test name="Test Buying in chrome" duration-ms="116577" started-at="2016-07-19T07:19:44Z" finished-at="2016-07-19T07:21:41Z">
+      <class name="test.TestBuying">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test.TestBuying@4af044]" name="setUp" is-config="true" duration-ms="5572" started-at="2016-07-19T14:19:44Z" finished-at="2016-07-19T14:19:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Testbuying1()[pri:0, instance:test.TestBuying@4af044]" name="Testbuying1" duration-ms="103938" started-at="2016-07-19T14:19:50Z" finished-at="2016-07-19T14:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testbuying1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.TestBuying@4af044]" name="tearDown" is-config="true" duration-ms="6864" started-at="2016-07-19T14:21:34Z" finished-at="2016-07-19T14:21:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.TestBuying -->
+    </test> <!-- Test Buying in chrome -->
+  </suite> <!-- CrossBrowser/MultiBrowser -->
+</testng-results>
